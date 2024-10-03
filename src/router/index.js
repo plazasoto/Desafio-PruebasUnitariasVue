@@ -20,13 +20,11 @@ const routes = [
     name: 'about',
     component: () => import('../views/AboutView.vue')
   },
-  /*
   {
     path: '/contact',
     name: 'contact',
     component: () => import('../views/ContactView.vue')
   }
-  */
 ]
 
 const router = createRouter({
