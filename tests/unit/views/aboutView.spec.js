@@ -3,9 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import AboutView from '@/views/AboutView.vue'
 
-
-
-describe('AboutView', () => { 
+describe('Componente AboutView', () => { 
     test('Probando la existencia de la vista AboutView ', async () => {
         const router = createRouter({
             history: createWebHistory(),

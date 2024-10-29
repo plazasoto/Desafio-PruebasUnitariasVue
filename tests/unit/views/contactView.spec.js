@@ -3,9 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import ContactView from '@/views/ContactView.vue'
 
-
-
-describe('ContactView', () => { 
+describe('Componente ContactView', () => { 
     test('Probando la existencia de la vista ContactView ', async () => {
         const router = createRouter({
             history: createWebHistory(),
